@@ -33,7 +33,7 @@ add_executable(TouchRemap
 target_link_libraries(TouchRemap
   taihen_stub
   SceLibKernel_stub
-  SceTouch_stub
+  SceTouch_stub_weak
   SceDisplay_stub
   SceCtrl_stub
   k
